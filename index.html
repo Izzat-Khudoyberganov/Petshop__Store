@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/media.css">
+  <title>Petshop</title>
+</head>
+
+<body>
+
+  <!-- Header section start -->
+
+  <header class="page__header" id="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="content">
+            <a href="#!" class="logo">
+              <img src="./img/Лого.png" alt="site-logo" class="logo__img">
+            </a>
+            <div class="burger__menu d-flex fd-column">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="nav d-flex ai-center jc-sb">
+              <li class="nav__item"><a href="#header" class="nav__link active">Главная</a></li>
+              <li class="nav__item"><a href="#category" class="nav__link">Каталог</a></li>
+              <li class="nav__item"><a href="#specialist" class="nav__link">О сервисе</a></li>
+              <li class="nav__item"><a href="#page__footer" class="nav__link">Контакты</a></li>
+            </ul>
+            <div class="user__actions d-flex ai-center jc-sb">
+              <a href="tel:+7 988 777-88-77" class="phone__link">+7 988 777-88-77</a>
+              <a href="#!" class="like__box d-flex ai-center jc-center">
+                <img src="./img/heart.svg" alt="heart-icon">
+              </a>
+              <a href="#!" class="shopping__cart d-flex ai-center jc-center">
+                <img src="./img/shopping__cart.svg" alt="shopping-cart-img">
+              </a>
+              <div class="submenu">
+                <img src="./img/down-icon.svg" alt="submenu-icon-img">
+                <div class="sub__content"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__info">
+        <div class="container">
+          <div class="content">
+            <div class="content__item">
+              <div class="info d-flex fd-column">
+                <h1 class="title">Твой новый друг с доставкой на дом</h1>
+                <div class="info__desc">Онлайн-магазин домашних животных подарит тебе нового друга в несколько кликов.
+                  Действуй!</div>
+                <a href="#!" class="info__btn">Купить сейчас</a>
+              </div>
+            </div>
+            <div class="content__item">
+              <div class="slider d-flex fd-column ai-end p-relative">
+                <div class="slider__line d-flex ai-center jc-center">
+                  <div class="slider__slide d-flex jc-center ai-center">
+                    <img src="./img/Животные.png" alt="" class="slider__img">
+                  </div>
+                  <div class="slider__slide d-flex jc-center ai-center">
+                    <img src="./img/Животные.png" alt="" class="slider__img">
+                  </div>
+                  <div class="slider__slide d-flex jc-center ai-center">
+                    <img src="./img/Животные.png" alt="" class="slider__img">
+                  </div>
+                </div>
+                <div class="slider__controls">
+                  <button class="slider__prev">
+                    <img src="./img/Vector (1).svg" class="prev__btn-img" alt="prev">
+                  </button>
+                  <button class="slider__next">
+                    <img src="./img/Vector (1).svg" class="next__btn-img" alt="next">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </header>
+
+  <!-- Header section end -->
+
+  <!-- Main section start -->
+
+  <section class="main__section">
+    <div class="category" id="category">
+      <div class="container">
+        <h2 class="main__title category__title" id="title">Популярные категории</h2>
+        <div class="cardbox d-flex jc-sb ai-center">
+            <div class="category__card category__card-first card">
+              <img src="./img/category__img-1.png" alt="" class="card__img">
+              <h4 class="card__title">Собаки</h4>
+            </div>
+            <div class="category__card category__card-second card">
+              <img src="./img/category__img-2.png" alt="" class="card__img">
+              <h4 class="card__title">Кошки</h4>
+            </div>
+            <div class="category__card category__card-third card">
+              <img src="./img/category__img-3.png" alt="" class="card__img">
+              <h4 class="card__title">Птицы</h4>
+            </div>
+            <div class="category__card category__card-fourth card">
+              <img src="./img/category__img-4.png" alt="" class="card__img">
+              <h4 class="card__title">Рыбы</h4>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="product">
+      <div class="container">
+        <h2 class="main__title product__title">Наши продукты</h2>
+        <div class="description pro__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing
+          nunc. Sagittis arcu cursus lorem
+          ultricies</div>
+        <div class="card__box d-flex jc-sb ai-center">
+            <div class="product__card card">
+              <img src="./img/product__card-img-1.png" alt="" class="product__card-img">
+              <h4 class="product__card-title">Корм для собак</h4>
+              <a href="#!" class="view__btn">Смотреть</a>
+            </div>
+            <div class="product__card card">
+              <img src="./img/product__card-img-2.png" alt="" class="product__card-img">
+              <h4 class="product__card-title">Корм для кошек</h4>
+              <a href="#!" class="view__btn">Смотреть</a>
+            </div>
+            <div class="product__card card">
+              <img src="./img/product__card-img-3.png" alt="" class="product__card-img">
+              <h4 class="product__card-title">Корм для птиц</h4>
+              <a href="#!" class="view__btn">Смотреть</a>
+            </div>
+            <div class="product__card card">
+              <img src="./img/product__card-img-4.png" alt="" class="product__card-img">
+              <h4 class="product__card-title">Корм для рыбам</h4>
+              <a href="#!" class="view__btn">Смотреть</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="special__product" id="special__product">
+      <div class="container">
+        <h2 class="main__title special__product-title">
+          Специальные продукты
+        </h2>
+        <p class="description spec__pro-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing nunc. Sagittis arcu
+          cursus lorem
+          ultricies
+        </p>
+        <div class="card__box d-flex ai-center jc-sb">
+          <div class="special__card card">
+            <img src="./img/special__product-img-1.png" class="special__product-img" alt="special__product-img-1"
+              class="product__card-img">
+            <h4 class="product__card-desc">Лучшие друзья
+              Шери Deep Dish Sherpa</h4>
+            <div class="price__bar d-flex ai-center jc-sb">
+              <p class="price">Цена: <span>90$</span></p>
+              <div class="action__box">
+                <img src="./img/heart.svg" alt="heart-img">
+                <img src="./img/shopping__cart.svg" alt="shopping-cart">
+              </div>
+            </div>
+          </div>
+          <div class="special__card card">
+            <img src="./img/special__product-img-2.png" class="special__product-img" alt="special__product-img-1"
+              class="product__card-img">
+            <h4 class="product__card-desc">Лучшие друзья
+              Шери Deep Dish Sherpa</h4>
+            <div class="price__bar d-flex ai-center jc-sb">
+              <p class="price">Цена: <span>90$</span></p>
+              <div class="action__box">
+                <img src="./img/heart.svg" alt="heart-img">
+                <img src="./img/shopping__cart.svg" alt="shopping-cart">
+              </div>
+            </div>
+          </div>
+          <div class="special__card card">
+            <img src="./img/special__product-img-3.png" class="special__product-img" alt="special__product-img-1"
+              class="product__card-img">
+            <h4 class="product__card-desc">Лучшие друзья
+              Шери Deep Dish Sherpa</h4>
+            <div class="price__bar d-flex ai-center jc-sb">
+              <p class="price">Цена: <span>90$</span></p>
+              <div class="action__box">
+                <img src="./img/heart.svg" alt="heart-img">
+                <img src="./img/shopping__cart.svg" alt="shopping-cart">
+              </div>
+            </div>
+          </div>
+          <div class="special__card card">
+            <img src="./img/special__product-img-4.png" class="special__product-img" alt="special__product-img-1"
+              class="product__card-img">
+            <h4 class="product__card-desc">Лучшие друзья
+              Шери Deep Dish Sherpa</h4>
+            <div class="price__bar d-flex ai-center jc-sb">
+              <p class="price">Цена: <span>90$</span></p>
+              <div class="action__box">
+                <img src="./img/heart.svg" alt="heart-img">
+                <img src="./img/shopping__cart.svg" alt="shopping-cart">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="specialist__section" id="specialist">
+      <div class="container">
+        <h2 class="main__title spec__title">Наши ветеринары</h2>
+        <p class="description spec__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing
+          nunc. Sagittis arcu cursus lorem
+          ultricies</p>
+        <div class="grid__box">
+          <div class="specialist__card d-flex">
+            <img src="./img/Specialist-1.png" alt="Specialist-1" class="specialist__img">
+            <div class="specialist__card-info">
+              <a href="tel:+7 988 777-88-77" class="specialist__phone">
+                <img src="./img/phone-icon.svg" alt="phone-icon">
+              </a>
+              <h4 class="specialist__name">София Адамс</h4>
+              <div class="vet__position d-flex">
+                <img src="./img/med__icon.svg" alt="med-icon">
+                <p class="position">Ветеринарный Врач</p>
+              </div>
+              <p class="vet__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing
+              </p>
+              <div class="link__box d-flex">
+                <a href="#!" class="linkbox__item instagram">
+                  <img src="./img/instagram 1.svg" alt="">
+                </a>
+                <a href="#!" class="linkbox__item vcontact">
+                  <img src="./img/VContact.svg" alt="VContact">
+                </a>
+                <a href="#!" class="linkbox__item facebook">
+                  <img src="./img/Facebook.svg" alt="Facebook">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="specialist__card d-flex">
+            <img src="./img/Specialist-2.png" alt="Specialist-2" class="specialist__img">
+            <div class="specialist__card-info">
+              <a href="tel:+7 988 777-88-77" class="specialist__phone">
+                <img src="./img/phone-icon.svg" alt="phone-icon">
+              </a>
+              <h4 class="specialist__name">Азарова Мария</h4>
+              <div class="vet__position d-flex">
+                <img src="./img/med__icon.svg" alt="med-icon">
+                <p class="position">Эпидемиолог</p>
+              </div>
+              <p class="vet__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing
+              </p>
+              <div class="link__box d-flex">
+                <a href="#!" class="linkbox__item instagram">
+                  <img src="./img/instagram 1.svg" alt="">
+                </a>
+                <a href="#!" class="linkbox__item vcontact">
+                  <img src="./img/VContact.svg" alt="VContact">
+                </a>
+                <a href="#!" class="linkbox__item facebook">
+                  <img src="./img/Facebook.svg" alt="Facebook">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="specialist__card d-flex">
+            <img src="./img/Specialist-3.png" alt="Specialist-3" class="specialist__img">
+            <div class="specialist__card-info">
+              <a href="tel:+7 988 777-88-77" class="specialist__phone">
+                <img src="./img/phone-icon.svg" alt="phone-icon">
+              </a>
+              <h4 class="specialist__name">Брайан Адамс</h4>
+              <div class="vet__position d-flex">
+                <img src="./img/med__icon.svg" alt="med-icon">
+                <p class="position">Физиотерапевт</p>
+              </div>
+              <p class="vet__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing
+              </p>
+              <div class="link__box d-flex">
+                <a href="#!" class="linkbox__item instagram">
+                  <img src="./img/instagram 1.svg" alt="">
+                </a>
+                <a href="#!" class="linkbox__item vcontact">
+                  <img src="./img/VContact.svg" alt="VContact">
+                </a>
+                <a href="#!" class="linkbox__item facebook">
+                  <img src="./img/Facebook.svg" alt="Facebook">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="specialist__card d-flex">
+            <img src="./img/Specialist-4.png" alt="Specialist-4" class="specialist__img">
+            <div class="specialist__card-info">
+              <a href="tel:+7 988 777-88-77" class="specialist__phone">
+                <img src="./img/phone-icon.svg" alt="phone-icon">
+              </a>
+              <h4 class="specialist__name">Смирнова Ольга</h4>
+              <div class="vet__position d-flex">
+                <img src="./img/med__icon.svg" alt="med-icon">
+                <p class="position">Стоматолог</p>
+              </div>
+              <p class="vet__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing
+              </p>
+              <div class="link__box d-flex">
+                <a href="#!" class="linkbox__item instagram">
+                  <img src="./img/instagram 1.svg" alt="">
+                </a>
+                <a href="#!" class="linkbox__item vcontact">
+                  <img src="./img/VContact.svg" alt="VContact">
+                </a>
+                <a href="#!" class="linkbox__item facebook">
+                  <img src="./img/Facebook.svg" alt="Facebook">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="news__section" id="news">
+      <div class="container">
+        <h2 class="main__title">Новости животных сегодня</h2>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing
+          nunc. Sagittis arcu cursus lorem
+          ultricies</p>
+        <div class="news__box d-flex jc-sb">
+          <div class="news__card d-flex jc-sb">
+            <img src="./img/news__card.png" alt="news__card-img">
+            <div class="news__card-info d-flex fd-column jc-sb">
+              <b class="news__card-title d-block">Новости животных</b>
+              <small class="d-block">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit
+                tractatos, vero tractatos ius an, in mel Eu
+                usu vidit tractatos, vero tractatos ius an, in mel Quidam vocibus eum ne, erat consectetuer voluptatibus
+                ut nam. Eu usu
+                vidit tractatos, tractatos, vero tractatos ius an, in mel !!!</small>
+              <a href="#!" class="news__card-btn d-flex ai-center jc-center">Смотреть</a>
+            </div>
+          </div>
+          <div class="gallery__box">
+            <div class="gallery__box-item card">
+              <img src="./img/gallery-1.png" alt="gallery-1">
+            </div>
+            <div class="gallery__box-item card">
+              <img src="./img/gallery-2.png" alt="gallery-2">
+            </div>
+            <div class="gallery__box-item card">
+              <img src="./img/gallery-3.png" alt="gallery-3">
+            </div>
+            <div class="gallery__box-item card">
+              <img src="./img/gallery-4.png" alt="gallery-4">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="custom__bg-btn">Select theme</button>
+  </section>
+
+  <!-- Main section end -->
+
+  <footer class="page__footer" id="page__footer">
+      <div class="footer__content ">
+        <div class="container d-flex jc-sb">
+          <div class="footer__content-item d-flex fd-column jc-sb">
+            <a href="#!" class="footer__logo">
+              <img src="./img/dark__logo.svg" alt="footer-logo" class="footer__logo-img">
+            </a>
+            <p class="footer__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing
+              nunc. Sagittis arcu cursus lorem</p>
+            <div class="footer__link">
+              <img src="./img/phone__dark.svg" alt="phone-icon">
+              <a href="tel:+7 988 777-88-77">+7 988 777-88-77</a>
+            </div>
+            <form action="#" class="footer__form">
+              <label for="search-input" class="sr-only">
+                Type here to search
+              </label>
+              <input type="search" id="search-input" placeholder="Type here to search">
+            </form>
+          </div>
+          <div class="footer__content-item d-flex fd-column jc-sb">
+            <h4 class="content__title">Новости</h4>
+            <div class="news__item d-flex jc-sb">
+              <img src="./img/footer__news-1.png" alt="footer__news-1">
+              <div class="news__info d-flex fd-column jc-sb">
+                <a href="#!" class="news__info-title">Вфывфывфыввыф</a>
+                <div class="news__date d-flex">
+                  <img src="./img/calendar.svg" alt="calendar">
+                  <p class="date">18.08.2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="news__item d-flex jc-sb">
+              <img src="./img/footer__news-2.png" alt="animals-picture">
+              <div class="news__info d-flex fd-column jc-sb">
+                <a href="#!" class="news__info-title">Вфывфывфыввыф</a>
+                <div class="news__date d-flex ">
+                  <img src="./img/calendar.svg" alt="calendar">
+                  <p class="date">18.08.2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="news__item d-flex jc-sb">
+              <img src="./img/footer__news-3.png" alt="animals-picture">
+              <div class="news__info d-flex fd-column jc-sb">
+                <a href="#!" class="news__info-title">Вфывфывфыввыф</a>
+                <div class="news__date d-flex">
+                  <img src="./img/calendar.svg" alt="calendar">
+                  <p class="date">18.08.2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__content-item d-flex fd-column jc-sb">
+            <h4 class="content__title">Инстаграм</h4>
+            <div class="insta__box">
+              <img src="./img/insta__box-1.png" alt="animals-picture" class="insta__img">
+              <img src="./img/insta__box-2.png" alt="animals-picture" class="insta__img">
+              <img src="./img/insta__box-3.png" alt="animals-picture" class="insta__img">
+              <img src="./img/insta__box-4.png" alt="animals-picture" class="insta__img">
+              <img src="./img/insta__box-5.png" alt="animals-picture" class="insta__img">
+              <img src="./img/insta__box-6.png" alt="animals-picture" class="insta__img">
+            </div>
+          </div>
+          <button type="button" class="up__btn">
+            <img src="./img/Vector (1).svg" alt="">
+          </button>
+        </div>
+      </div>
+  </footer>
+  <div class="view">
+    <button class="view__close">
+      <img src="./img/X.png" alt="">
+    </button>
+    <img src="img/Specialist-4.png" class="view__img" alt="view-img">
+  </div>
+  <script src="./js/header.js"></script>
+  <script src="./js/customTheme.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/typing.js"></script>
+  <script src="./js/zoom.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
